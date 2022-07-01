@@ -1,2 +1,6 @@
+@import url(./posts-content.css);
+@import url(./posts-footer.css);
+@import url(./posts-header.css);
+
 .posts {
 }
