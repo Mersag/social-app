@@ -4,6 +4,8 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
+  background: var(--black);
+  color: var(--white);
 }
 * {
   margin: 0;
@@ -24,4 +26,9 @@ a {
   --light-grey: #727477;
   --dark-grey: #323436;
   --gradient: linear-gradient(to right, #f62e6c, #ac1af0);
+
+  /*fonts*/
+  --header-font-size: 1.8rem;
+  --header-font-weight: 300;
+  --paragraph-font-size: 1.6rem;
 }
