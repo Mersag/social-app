@@ -1,8 +1,25 @@
 .nav {
+  width: 37.5rem;
+  height: 8.8rem;
+  background-color: var(--black);
+  list-style: none;
+  color: var(--light-grey);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
 }
 
 .nav__button {
 }
 
 .nav__button--new-post {
+  width: 4rem;
+  height: 4rem;
+  background: var(--gradient);
+  border-radius: 50px;
+}
+
+.position_plus {
+  transform: translate(30%, 30%);
 }
