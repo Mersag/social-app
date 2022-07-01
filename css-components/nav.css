@@ -10,7 +10,6 @@
 }
 
 .nav__button {
-  filter: invert(1);
 }
 
 .nav__button--new-post {
@@ -20,8 +19,7 @@
   border-radius: 50px;
 }
 
-.color_plus {
-  filter: invert(1);
+.position_plus {
   position: absolute;
   transform: translate(30%, 30%);
   position: fixed;
