@@ -1,2 +1,5 @@
 .posts__content {
 }
+.posts__content__text {
+  font-size: var(--paragraph-font-size);
+}

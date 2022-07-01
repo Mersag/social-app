@@ -15,9 +15,12 @@
   align-items: center;
 }
 .posts__name {
+  font-size: var(--h2-font-size);
 }
 
 .posts__timestamp {
+  font-size: var(--timestamp-font-size);
+  color: var(--light-grey);
 }
 
 .posts__menu {
