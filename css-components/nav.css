@@ -13,13 +13,16 @@
   filter: invert(1);
 }
 
-.test {
+.nav__button--new-post {
   width: 4rem;
   height: 4rem;
   background: var(--gradient);
   border-radius: 50px;
 }
 
-.nav__button--new-post {
-  align-self: center;
+.color_plus {
+  filter: invert(1);
+  position: absolute;
+  transform: translate(30%, 30%);
+  position: fixed;
 }
