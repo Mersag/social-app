@@ -1,8 +1,25 @@
 .nav {
+  width: 37.5rem;
+  height: 8.8rem;
+  background-color: var(--black);
+  list-style: none;
+  color: var(--light-grey);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .nav__button {
+  filter: invert(1);
+}
+
+.test {
+  width: 4rem;
+  height: 4rem;
+  background: var(--gradient);
+  border-radius: 50px;
 }
 
 .nav__button--new-post {
+  align-self: center;
 }
