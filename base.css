@@ -24,4 +24,8 @@ a {
   --light-grey: #727477;
   --dark-grey: #323436;
   --gradient: linear-gradient(to right, #f62e6c, #ac1af0);
+
+  /*fonts*/
+  --header-font-size: 1.5rem;
+  --header-font-weight: 300;
 }
