@@ -15,3 +15,13 @@ a {
   text-decoration: none;
   color: unset;
 }
+
+:root {
+  --black: #181a1c;
+  --blue: #2e8af6;
+  --pink: #f62e8e;
+  --white: #ecebed;
+  --light-grey: #727477;
+  --dark-grey: #323436;
+  --gradient: linear-gradient(to right, #f62e6c, #ac1af0);
+}
