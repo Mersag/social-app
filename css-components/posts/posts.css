@@ -3,4 +3,6 @@
 @import url(./posts-header.css);
 
 .posts {
+  padding: 20px;
+  
 }

@@ -1,4 +1,19 @@
 .posts__footer {
+  margin: 20px 0;
+}
+.posts__footer__list {
+  display: flex;
+  justify-content: space-between;
+}
+.posts__footer__list__items {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  gap: 5px;
+}
+.posts__footer__list__container {
+  display: flex;
+  gap: 20px;
 }
 .posts__social-icons {
 }

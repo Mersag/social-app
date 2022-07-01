@@ -42,45 +42,51 @@
 
       <!-------- Stories-END -------->
       <!-------- Posts -------->
-      <section clas="posts">
+      <section class="posts">
         <article class="posts__header">
-          <img
-            class="posts__profile-picture"
-            src="/images/home/Profile-Photo-5.png"
-            alt="Profile picture"
-          />
-          <h2 class="posts__name">Jacob Washington</h2>
-          <p class="posts__timestamp">20 min ago</p>
-          <img src="/Icon/Dots Vertical.svg" alt="Menu dots" />
+          <div class="posts__header__profile">
+            <img
+              class="posts__profile-picture"
+              src="/images/home/Profile-Photo-5.png"
+              alt="Profile picture"
+            />
+            <div>
+              <h2 class="posts__name">Jacob Washington</h2>
+              <p class="posts__timestamp">20 min ago</p>
+            </div>
+          </div>
+          <a href="#"><img src="/Icon/Dots Vertical.svg" alt="Menu dots" /></a>
         </article>
         <article class="posts__content">
           <p>
             “If you think you are too small to make a difference, try sleeping
-            with a mosquito.” ~ Dalai Lama
+            with a mosquito.” <br />~ Dalai Lama
           </p>
         </article>
         <article class="posts__footer">
-          <ul>
-            <a href="#"
-              ><li>
-                <img src="/Icon/Like.svg" alt="Like icon" />
-                <p>2,245</p>
-              </li></a
-            >
-            <a href="#"
-              ><li>
-                <img src="/Icon/Comment.svg" alt="Coment icon" />
-                <p>45</p>
-              </li></a
-            >
-            <a href="#"
-              ><li>
-                <img src="/Icon/Share.svg" alt="Share icon" />
-                <p>124</p>
-              </li></a
-            >
-            <a href="#"
-              ><li>
+          <ul class="posts__footer__list">
+            <div class="posts__footer__list__container">
+              <a href="#">
+                <li class="posts__footer__list__items">
+                  <img src="/Icon/Like.svg" alt="Like icon" />
+                  <p>2,245</p>
+                </li></a
+              >
+              <a href="#"
+                ><li class="posts__footer__list__items">
+                  <img src="/Icon/Comment.svg" alt="Coment icon" />
+                  <p>45</p>
+                </li></a
+              >
+              <a href="#"
+                ><li class="posts__footer__list__items">
+                  <img src="/Icon/Share.svg" alt="Share icon" />
+                  <p>124</p>
+                </li></a
+              >
+            </div>
+            <a href="#">
+              <li class="posts__footer__list__items">
                 <img src="/Icon/Bookmark.svg" alt="Bookmark icon" /></li
             ></a>
           </ul>
