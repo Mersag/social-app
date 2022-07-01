@@ -1,0 +1,7 @@
+/* Image scrolling + Container = overflow: auto*/
+.img--scroll {
+  display: table;
+  white-space: nowrap;
+}
+
+/* Image scrolling */
