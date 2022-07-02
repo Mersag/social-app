@@ -1,3 +1,5 @@
+@import url(/css-components/dots.css);
+
 .posts__content {
   display: flex;
   overflow: auto;
@@ -8,4 +10,9 @@
 .posts__content__img {
   width: 327px;
   margin-right: 10px;
+}
+
+.posts__content__container {
+  display: flex;
+  flex-direction: column;
 }
