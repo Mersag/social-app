@@ -16,8 +16,10 @@
   gap: 20px;
 }
 .posts__social-icons {
+  width: 16px;
 }
 .posts__bookmark {
+  width: 20px;
 }
 .posts__bookmark--aktiv {
 }
