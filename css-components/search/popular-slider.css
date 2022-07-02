@@ -1,0 +1,23 @@
+.popular-slider__headline {
+  padding: 2rem;
+}
+
+.popular-slider__tags {
+  padding-left: 2rem;
+  display: flex;
+}
+
+.slider__tag {
+  font-size: 1.2rem;
+  border: solid;
+  border-color: var(--light-grey);
+  border-width: 2px;
+  border-radius: 4rem;
+  padding: 1rem 2rem 1rem 2rem;
+  margin: 0.75rem;
+}
+
+.slider__tag:first-child {
+  background-color: var(--blue);
+  border: none;
+}

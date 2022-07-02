@@ -1,7 +1,7 @@
 .search-bar-wrapper {
-  padding: 1rem;
-  width: 35.1rem;
-  height: rem;
+  padding: 2rem;
+  width: 37.5rem;
+  height: fit-content;
   display: flex;
   align-items: center;
   top: 0;
@@ -10,8 +10,8 @@
 .search-bar {
   border: none;
   width: 32.7rem;
-  height: 4rem;
-  border-radius: 2rem;
+  height: 5rem;
+  border-radius: 4rem;
   padding: 1.5rem;
   background-color: var(--dark-grey);
   display: block;
