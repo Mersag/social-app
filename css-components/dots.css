@@ -1,11 +1,13 @@
 .dot__section {
-    background-color: beige;
+  height: 50px;
+  width: 100%;
+  background-color: red;
 }
 .dot {
-    width: 6px;
-    height: 6px;
-    background-color: red;
+  width: 6px;
+  height: 6px;
+  background-color: red;
 }
 .dot--pink {
-    background-color: var(--pink);
+  background-color: var(--pink);
 }
