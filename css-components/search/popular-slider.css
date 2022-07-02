@@ -17,7 +17,7 @@
   margin: 0.75rem;
 }
 
-.slider__tag:first-child {
+.slider__tag--active {
   background-color: var(--blue);
   border: none;
 }
