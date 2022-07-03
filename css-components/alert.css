@@ -1,0 +1,32 @@
+.alert__header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background: var(--black);
+  color: var(--white);
+  padding: 0.6rem;
+  font-style: var(--header-font-size);
+  font-weight: var(--header-font_weight);
+}
+
+.alert__header__h2 {
+  color: #f62e8e;
+  margin: 20px;
+  font-style: var(--header-font-size);
+}
+
+.alert__section__h3 {
+}
+
+.alert__icons {
+  filter: invert(1);
+}
+
+.alert__article {
+}
+
+alert__article__h4 {
+}
+
+alert__article__p {
+}
