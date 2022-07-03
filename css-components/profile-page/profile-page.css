@@ -1,0 +1,8 @@
+.profile-page {
+  color: pink;
+}
+
+.profile-page__header {
+  background-image: url("../../images/profile/Profile-Banner.png");
+  background-repeat: none;
+}
