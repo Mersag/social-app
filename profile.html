@@ -50,88 +50,119 @@
           <li class="content-tabs__tab">Tagged</li>
         </ul>
       </section>
-      <section clas="posts">
-        <article class="posts__header">
-          <img
-            class="posts__profile-picture"
-            src="/images/profile/Profile-Photo.png"
-            alt="Profile picture"
-          />
-          <h2 class="posts__name">Alex Tsimikas</h2>
-          <p class="posts__timestamp">3d ago</p>
-          <img src="/Icon/Dots Vertical.svg" alt="Menu dots" />
-        </article>
-        <article class="posts__content">
-          <p>Going on vacation! Catch you all in 10 days. No call!!!!!</p>
-        </article>
-        <article class="posts__footer">
-          <ul>
-            <a href="#"
-              ><li>
-                <img src="/Icon/Like.svg" alt="Like icon" />
-                <p>261</p>
-              </li></a
-            >
-            <a href="#"
-              ><li>
-                <img src="/Icon/Comment.svg" alt="Coment icon" />
-                <p>12</p>
-              </li></a
-            >
-            <a href="#"
-              ><li>
-                <img src="/Icon/Share.svg" alt="Share icon" />
-                <p></p></li
-            ></a>
-            <a href="#"
-              ><li>
-                <img src="/Icon/Bookmark.svg" alt="Bookmark icon" /></li
-            ></a>
-          </ul>
-        </article>
-      </section>
 
-      <section clas="posts">
+
+      <!-- Begin posts -->
+
+      <!-- Begin single post -->
+      <section class="posts">
         <article class="posts__header">
-          <img
-            class="posts__profile-picture"
-            src="/images/profile/Profile-Photo.png"
-            alt="Profile picture"
-          />
-          <h2 class="posts__name">Alex Tsimikas</h2>
-          <p class="posts__timestamp">4d ago</p>
-          <img src="/Icon/Dots Vertical.svg" alt="Menu dots" />
+          <div class="posts__header__profile">
+            <img
+              class="posts__profile-picture"
+              src="/images/profile/Profile-Photo.png"
+              alt="Profile picture"
+            />
+            <div>
+              <h2 class="posts__name">Alex Tsimikas</h2>
+              <p class="posts__timestamp">3d ago</p>
+            </div>
+          </div>
+          <a href="#"><img src="/Icon/Dots Vertical.svg" alt="Menu dots" /></a>
         </article>
         <article class="posts__content">
-          <p>1 day to go!</p>
-          <img src="/images/profile/Rectangle-1.png" alt="Vacation photo" />
+          <p class="posts__content__text">
+            Going on vacation! Catch you all in 10 days. No call!!!!!
+          </p>
         </article>
         <article class="posts__footer">
-          <ul>
-            <a href="#"
-              ><li>
-                <img src="/Icon/Like.svg" alt="Like icon" />
-                <p>5,391</p>
-              </li></a
-            >
-            <a href="#"
-              ><li>
-                <img src="/Icon/Comment.svg" alt="Coment icon" />
-                <p>12</p>
-              </li></a
-            >
-            <a href="#"
-              ><li>
-                <img src="/Icon/Share.svg" alt="Share icon" />
-                <p></p></li
-            ></a>
-            <a href="#"
-              ><li>
-                <img src="/Icon/Bookmark.svg" alt="Bookmark icon" /></li
+          <ul class="posts__footer__list">
+            <div class="posts__footer__list__container">
+              <a href="#">
+                <li class="posts__footer__list__items">
+                  <img class="posts__social-icons" src="/Icon/Like.svg" alt="Like icon" />
+                  <p>261</p>
+                </li></a
+              >
+              <a href="#"
+                ><li class="posts__footer__list__items">
+                  <img class="posts__social-icons" src="/Icon/Comment.svg" alt="Coment icon" />
+                  <p>12</p>
+                </li></a
+              >
+              <a href="#"
+                ><li class="posts__footer__list__items">
+                  <img class="posts__social-icons" src="/Icon/Share.svg" alt="Share icon" />
+                  <p></p>
+                </li></a
+              >
+            </div>
+            <a href="#">
+              <li class="posts__footer__list__items">
+                <img class="posts__bookmark posts__bookmark--aktiv" src="/Icon/Bookmark.svg" alt="Bookmark icon" /></li
             ></a>
           </ul>
         </article>
       </section>
+      <!-- End single post -->
+
+
+      <!-- Begin single post -->
+      <section class="posts">
+        <article class="posts__header">
+          <div class="posts__header__profile">
+            <img
+              class="posts__profile-picture"
+              src="/images/profile/Profile-Photo.png"
+              alt="Profile picture"
+            />
+            <div>
+              <h2 class="posts__name">Alex Tsimikas</h2>
+              <p class="posts__timestamp">4d ago</p>
+            </div>
+          </div>
+          <a href="#"><img src="/Icon/Dots Vertical.svg" alt="Menu dots" /></a>
+        </article>
+        <article class="posts__content post__content--text-and-images">
+          <p class="posts__content__text">
+            1 day to go!
+          
+          </p>
+          <img src="/images/profile/Rectangle-1.png" class="posts__content__img img--scroll" alt="Vacation photo" />
+        </article>
+        <article class="posts__footer">
+          <ul class="posts__footer__list">
+            <div class="posts__footer__list__container">
+              <a href="#">
+                <li class="posts__footer__list__items">
+                  <img class="posts__social-icons" src="/Icon/Like.svg" alt="Like icon" />
+                  <p>261</p>
+                </li></a
+              >
+              <a href="#"
+                ><li class="posts__footer__list__items">
+                  <img class="posts__social-icons" src="/Icon/Comment.svg" alt="Coment icon" />
+                  <p>12</p>
+                </li></a
+              >
+              <a href="#"
+                ><li class="posts__footer__list__items">
+                  <img class="posts__social-icons" src="/Icon/Share.svg" alt="Share icon" />
+                  <p></p>
+                </li></a
+              >
+            </div>
+            <a href="#">
+              <li class="posts__footer__list__items">
+                <img class="posts__bookmark posts__bookmark--aktiv" src="/Icon/Bookmark.svg" alt="Bookmark icon" /></li
+            ></a>
+          </ul>
+        </article>
+      </section>
+      <!-- End single post -->
+
+           <!-- End posts -->
+
     </main>
     <nav>
       <ul class="nav">
