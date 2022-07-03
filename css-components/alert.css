@@ -40,14 +40,14 @@
 
 .circle {
   border-radius: 50%;
-	background-color: darkgrey ;
+	background-color: #727477;
 	width: 25px;px;
 	height: 25px;px;
 }
 .icons {
-  filter: invert(1);
+  filter: invert(0.7);
   border-radius: 50%;
-	background-color: darkgrey ;
+	background-color: #727477;
 	width: 25px;px;
 	height: 25px;px;
 }
