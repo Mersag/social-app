@@ -14,10 +14,11 @@
   border-width: 2px;
   border-radius: 4rem;
   padding: 1rem 2rem 1rem 2rem;
-  margin: 0.75rem;
+  margin: 1.5rem 1.5rem 1rem 0;
 }
 
 .slider__tag--active {
   background-color: var(--blue);
-  border: none;
+  border-color: var(--blue);
+  margin-bottom: 2.5rem;
 }
