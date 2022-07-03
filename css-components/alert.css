@@ -1,21 +1,42 @@
 .alert__header {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  background: var(--black);
-  color: var(--white);
-  padding: 0.6rem;
-  font-style: var(--header-font-size);
-  font-weight: var(--header-font_weight);
+  position:absolute;
+  width: 100px;
+  height: 24px;
+  left: 26px;
+  top: 68px;
+  color:#fff;
+
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+
+  text-align: right;
+
+  border: 1px solid #000;
 }
 
 .alert__header__h2 {
+  position: absolute;
+  width: 130px;
+  height: 24px;
+  left: 270px;
+  top; 40px;
   color: #f62e8e;
-  margin: 20px;
-  font-style: var(--header-font-size);
-}
+  
+  font-family: sans-serif;
+  text-align: right;
+  font-style: normal;
+  font-weight: 70;
+  font-size: 14px;
+  line-hight: 24px;
+
+  }
 
 .alert__section__h3 {
+  
+
 }
 
 .alert__icons {
