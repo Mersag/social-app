@@ -2,5 +2,7 @@
 @import url(./css-components/nav.css);
 @import url(./css-components/header.css);
 @import url(./css-components/stories.css);
+@import url(./css-components/alert.css);
 @import url(./css-components/posts/posts.css);
 @import url(./css-components/profile-page/profile-page.css);
+@import url(./css-components/search/search.css);

@@ -15,59 +15,89 @@
     <title>Alert</title>
   </head>
   <body>
-    <header>
-      <h1>Alerts</h1>
-      <h2>Mark all as read</h2>
+    <header class="alert__header">
+      <h1 class="alert__header__h1">Alerts</h1>
+
+      <h2 class="alert__header__h2">Mark all as read</h2>
     </header>
     <main>
-      <section>
-        <h3>Today</h3>
-        <article>
-          <img src="/Icon/Like.svg" alt="Like icon" />
-          <h4><strong>Sofia, John and +19 others</strong> liked your post.</h4>
-          <p>10m ago</p>
-        </article>
-        <article>
-          <img src="/Icon/Like.svg" alt="Like icon" />
-          <h4>
-            <strong>Rebecca, Daisy and +11 others</strong> liked your post.
-          </h4>
-          <p>30m ago</p>
-        </article>
-      </section>
+      <h3 class="alert__main__h3">Today</h3>
 
-      <section>
-        <h3>Yesterday</h3>
-        <article>
-          <img src="/Icon/Comment.svg" alt="Comment icon" />
-          <h4>
-            <strong>Katrina, Denver and +2 others</strong> commented on your
+        <article class="alert-message">
+          <img src="./Icon/Like.svg" alt="like icon" class="icons">
+          <div class="alert-message__text">
+          <h4><strong>Sofia, John and +19 others</strong> liked your post.</h4>
+          
+          <p class="alert-message__p">10m ago</p></div>
+        </article>
+        
+      <article class="alert-message">
+        <img class="icons" src="Icon/Like.svg"
+        alt="like icon">
+        <div class="alert-message__text">
+            <h4><strong>Rebecca, Daisy and +11 others</strong> liked your post.</h4>
+        <p class="alert-message__p">30m ago</p></div>
+      </article>
+
+      <h3 section class="alert_section_h3">Yesterday</h3>
+      
+        
+      <article class="alert-message">
+        <img class="icons" src="./Icon/Comment.svg"
+          alt="like icon">
+          <div class="alert-message__text">
+          <h4><strong>Katrina, Denver and +2 others</strong> commented on your
             post.
           </h4>
-          <p>1d ago</p>
+          <p class="alert-message__p">1d ago</p></div>
         </article>
 
-        <article>
-          <div>S</div>
-          <h4>
+        <article class="alert-message">
+          <div class="circle">S</div>
             <strong>Savannah Wilson</strong> is celebrating dirthday today. Drop
             a wish! 🎉
-          </h4>
-          <p>1d ago</p>
+            <p class="alert-message__p">1d ago</p></div>
         </article>
 
-        <article>
-          <div>@</div>
-          <h4><strong>Ralph Edwards</strong> mentioned you in a post.</h4>
-          <p>1d ago</p>
+        <article class="alert-message">
+          <div class="circle">@</div>
+          <strong>Ralph Edwards</strong> mentioned you in a post.
+          <p class="alert-message__p">1d ago</p></div>
         </article>
-
-        <article>
-          <div>@</div>
-          <h4><strong>Leslie Alexander</strong> mentioned you in a comment.</h4>
-          <p>1d ago</p>
-        </article>
-      </section>
+     
     </main>
+    <nav>
+      <ul class="nav">
+        <a
+            href="/index.html"
+          >
+        <li class="nav__button">
+          <img src="./Icon/Feed.svg" alt="Menu Icon" />
+        </li>
+      </a>
+        <a href="/search.html">
+        <li class="nav__button">
+      
+          <img src="./Icon/Search.svg" alt="Search Icon" />
+        </li>
+      </a>
+      <a href="#">
+        <li class="nav__button--new-post">
+          <img class="position_plus" src="./Icon/Plus.svg" alt="Plus Icon" />
+        </li>
+      </a>
+        <a href="/alert.html">
+        <li class="nav__button">
+          <img src="./Icon/Alert.svg" alt="Alert Icon" />
+        </li>
+      </a>
+      <a href="/profile.html">
+        <li class="nav__button">
+         <img src="./Icon/Profile.svg" alt="Profile Icon" />
+        </li>
+      </a>
+      </ul>
+    </nav>
+
   </body>
 </html>
