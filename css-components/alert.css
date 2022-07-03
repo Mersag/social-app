@@ -1,8 +1,16 @@
+.alert {
+  position: relative;
+  width: ;
+  height: ;
+  background: #181a1c;
+}
+
+
 .alert__header {
-  position:absolute;
-  width: 100px;
+  position: absolute;
+  width: 49px;
   height: 24px;
-  left: 26px;
+  left: 24px;
   top: 68px;
   color:#fff;
 
@@ -12,13 +20,12 @@
   font-size: 18px;
   line-height: 24px;
 
-  text-align: right;
-
-  border: 1px solid #000;
+  padding: 0.6rem;
 }
 
 .alert__header__h2 {
   position: absolute;
+  justify-content: end;
   width: 130px;
   height: 24px;
   left: 270px;
@@ -34,9 +41,45 @@
 
   }
 
-.alert__section__h3 {
+.alert__main__h3 {
+  position: absolute;
+  width: 48px;
+  height: 16px;
+  left: 24px;
+  top: 116px;
+
+  font-family: ;
+  font-style: ;
+  font-weight: ;
+  font-size: ;
+  line-height: ;
+
+  letter-spacing: 0.1em;
+  text-transform: ;
+
+  color: #727477;
   
 
+}
+alert__main__h4 {
+  position: absolute;
+  width: 375px;
+  height: 74px;
+  left: 0px;
+  top: 152px;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: ;
+  gap: ;
+
+}
+
+
+.alert__message {
+  color: aquamarine;
 }
 
 .alert__icons {
