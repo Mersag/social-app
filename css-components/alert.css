@@ -18,15 +18,25 @@
   text-transform: uppercase;
 }
 
-.alert_section-h3 {
+.alert_section_h3 {
   margin: 2rem;
   color: #727477;
+  font-weight: lighter;
+  text-transform: uppercase;
 }
 
 .alert-message {
   display: flex;
+  padding-top: 4rem;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+.alert-message__text {
 }
 
+.alert-message__p {
+  color: #727477;
+}
 .icons {
   filter: invert(1);
 }
