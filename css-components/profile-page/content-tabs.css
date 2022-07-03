@@ -4,6 +4,8 @@
   border-bottom: solid;
   border-width: 1px;
   border-color: var(--light-grey);
+  padding: 2rem 0 0 0;
+  margin: 0 0 4rem 0;
 }
 
 .content-tabs__tab {
