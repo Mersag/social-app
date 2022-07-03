@@ -1,7 +1,7 @@
 .alert__header {
   display: flex;
   justify-content: space-between;
-  padding: 1.5rem 3rem 2rem 2rem; 
+  padding: 1.5rem 3rem 1rem 2rem; 
   align-items: center;
 }
 
@@ -32,8 +32,13 @@
   padding-top: 4rem;
   font-size: 1.5rem;
   font-weight: normal;
+  border-bottom: 2px solid var(--dark-grey);
+  padding-bottom: 1.5rem;
+
+  
 }
 .alert-message__text {
+  font-weight: normal;
 }
 
 .alert-message__p {
@@ -47,9 +52,9 @@
 	height: 25px;px;
 }
 .icons {
-  filter: invert(0.7);
   border-radius: 50%;
-	background-color: #727477;
-	width: 25px;px;
-	height: 25px;px;
+	background-color: #323436;
+	width: 25px;
+	height: 25px;
+
 }
