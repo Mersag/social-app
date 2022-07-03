@@ -2,13 +2,20 @@
   display: flex;
   justify-content: space-around;
 }
+
+.alert__header__h1 {
+  font-weight: normal;
+}
 .alert__header__h2 {
   color: #f62e8e;
+  font-weight: normal;
 }
 
 .alert__main__h3 {
   margin: 2rem;
   color: #727477;
+  font-weight: lighter;
+  text-transform: uppercase;
 }
 
 .alert_section-h3 {
@@ -16,24 +23,10 @@
   color: #727477;
 }
 
-.article_1 {
+.alert-message {
   display: flex;
 }
 
-.article_2 {
-  display: flex;
-}
-
-.article_3 {
-  display: flex;
-}
-
-.article_4 {
-  display: flex;
-}
-.article_5 {
-  display: flex;
-}
 .icons {
   filter: invert(1);
 }
