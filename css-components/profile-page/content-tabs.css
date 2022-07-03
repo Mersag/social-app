@@ -1,0 +1,21 @@
+.content-tabs {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: var(--light-grey);
+  padding: 2rem 0 0 0;
+  margin: 0 0 4rem 0;
+}
+
+.content-tabs__tab {
+  font-size: var(--timestamp-font-size);
+  padding-bottom: 0.5rem;
+  font-weight: 300;
+}
+
+.content-tabs__tab--active {
+  border-bottom: solid;
+  border-color: var(--blue);
+  font-weight: 600;
+}

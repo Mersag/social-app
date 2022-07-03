@@ -7,3 +7,8 @@
   border-bottom: 2px solid var(--dark-grey);
   margin-bottom: 5px;
 }
+
+/*Modifier because padding not needed on profile page, it's in the main and header there.*/
+.posts--profile-page {
+  padding: 0 0 0 0;
+}

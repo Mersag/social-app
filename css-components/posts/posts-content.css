@@ -4,6 +4,10 @@
   display: flex;
   overflow: auto;
 }
+
+.post__content--text-and-images {
+  flex-direction: column;
+}
 .posts__content__text {
   font-size: var(--paragraph-font-size);
 }

@@ -1,0 +1,22 @@
+.profile-stats-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-stats-bar__stat-counter {
+  font-size: var(--timestamp-font-size);
+}
+
+.profile-stats-bar__stat-unit {
+  color: var(--light-grey);
+}
+
+.profile-stats-bar__edit-profile-button {
+  background: none;
+  color: var(--white);
+  border: var(--light-grey);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2rem;
+  padding: 0 3rem;
+}
