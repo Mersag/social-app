@@ -15,41 +15,35 @@
   </head>
   <body class="profile-page">
     <header class="profile-page__header">
-      <ul>
-        <a href="#"
-          ><li>
-            <img src="/Icon/Message.svg" alt="Message icon" />
-            <div class="dot"></div></li
-        ></a>
-        <a href="#"
-          ><li><img src="/Icon/Bookmark.svg" alt="Bookmark icon" /></li
-        ></a>
-      </ul>
-      <section>
+      <section class="profile-page__basic-info">
         <img
           src="/images/profile/Profile-Photo.png"
           class="profile-page__profile-picture"
           alt="Profile picture"
         />
-        <h1>Alex Tsimikas</h1>
-        <p>Brooklyn, NY</p>
-        <p>Write by Profession. Artist by Passion!</p>
+        <h1 class="profile-page__name">Alex Tsimikas</h1>
+        <p class="profile-page__location">Brooklyn, NY</p>
+        <p class="profile-page__intro-text">
+          Writer by Profession. Artist by Passion!
+        </p>
       </section>
-      <section>
+      <section class="profile-stats-bar">
         <article>
-          <p>2,467</p>
-          <p>Followers</p>
+          <p class="profile-stats-bar__stat-counter">2,467</p>
+          <p class="profile-stats-bar__stat-unit">Followers</p>
         </article>
         <article>
-          <p>1,589</p>
-          <p>Following</p>
+          <p class="profile-stats-bar__stat-counter">1,589</p>
+          <p class="profile-stats-bar__stat-unit">Following</p>
         </article>
-        <button>Edit Profile</button>
+        <button class="profile-stats-bar__edit-profile-button">
+          Edit Profile
+        </button>
       </section>
     </header>
     <main>
       <section>
-        <ul>
+        <ul class="profile-page__content-tabs">
           <li>Posts</li>
           <li>Stories</li>
           <li>Linked</li>
