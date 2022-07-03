@@ -1,12 +1,26 @@
 .posts__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
 }
 .posts__profile-picture {
+  width: 32px;
+  height: 32px;
+  margin-right: 5px;
 }
 
+.posts__header__profile {
+  display: flex;
+  align-items: center;
+}
 .posts__name {
+  font-size: var(--h2-font-size);
 }
 
 .posts__timestamp {
+  font-size: var(--timestamp-font-size);
+  color: var(--light-grey);
 }
 
 .posts__menu {

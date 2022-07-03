@@ -1,0 +1,15 @@
+.dot-section {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+.img-dot {
+  width: 6px;
+  height: 6px;
+  background-color: var(--light-grey);
+  border-radius: 100%;
+}
+.img-dot--active {
+  background-color: var(--pink);
+}

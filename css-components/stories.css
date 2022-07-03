@@ -1,8 +1,25 @@
 .stories {
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  overflow: auto;
+}
+.stories__card {
+  justify-content: center;
+  position: relative;
+  white-space: nowrap;
 }
 
-.stories__card {
+.stories__card__img {
+  width: 100px;
 }
 
 .stories__profile-picture {
+  width: 40px;
+  position: absolute;
+  bottom: 8px;
+  right: calc(50% - 20px);
+  border-radius: 50px;
+  border: 2px solid var(--dark-grey);
+  outline: 2px solid lightcoral;
 }

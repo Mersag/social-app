@@ -17,6 +17,9 @@ a {
   text-decoration: none;
   color: unset;
 }
+li {
+  list-style: none;
+}
 
 :root {
   --black: #181a1c;
@@ -31,4 +34,6 @@ a {
   --header-font-size: 1.8rem;
   --header-font-weight: 300;
   --paragraph-font-size: 1.6rem;
+  --h2-font-size: 1.4rem;
+  --timestamp-font-size: 1.2rem;
 }
