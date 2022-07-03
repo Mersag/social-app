@@ -37,6 +37,17 @@
 .alert-message__p {
   color: #727477;
 }
+
+.circle {
+  border-radius: 50%;
+	background-color: darkgrey ;
+	width: 25px;px;
+	height: 25px;px;
+}
 .icons {
   filter: invert(1);
+  border-radius: 50%;
+	background-color: darkgrey ;
+	width: 25px;px;
+	height: 25px;px;
 }
