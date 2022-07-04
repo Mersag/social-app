@@ -16,10 +16,19 @@
 
 .stories__profile-picture {
   width: 40px;
+  border-radius: 50px;
+  border: 2px solid var(--dark-grey);
+}
+
+.gradient {
+  background: var(--gradient);
+  width: 44px;
+  height: 44px;
   position: absolute;
   bottom: 8px;
   right: calc(50% - 20px);
   border-radius: 50px;
-  border: 2px solid var(--dark-grey);
-  outline: 2px solid lightcoral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
