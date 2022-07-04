@@ -4,7 +4,7 @@
   flex-direction: row;
   background: var(--black);
   color: var(--white);
-  padding: 0.6rem;
+  padding: 2rem;
 }
 .header__headline {
   font-size: var(--header-font-size);
